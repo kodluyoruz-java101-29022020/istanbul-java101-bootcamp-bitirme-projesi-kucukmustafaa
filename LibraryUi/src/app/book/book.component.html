@@ -1,0 +1,23 @@
+
+<table class="table">
+  <thead>
+  <tr>
+    <th scope="col">id</th>
+    <th scope="col">name</th>
+    <th scope="col">iSBN</th>
+    <th scope="col">description</th>
+    <th scope="col">category</th>
+
+  </tr>
+  </thead>
+  <tbody >
+  <tr *ngFor="let item of books">
+    <th>{{item.id}}</th>
+    <td>{{item.name}}</td>
+    <td>{{item.iSBN }}</td>
+    <td>{{item.description}}</td>
+    <td>{{item.category}}</td>
+
+  </tr>
+  </tbody>
+</table>

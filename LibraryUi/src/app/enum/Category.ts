@@ -1,0 +1,12 @@
+enum Category
+{
+  COMPUTER,
+  NATURE,
+  CHILD,
+  SCIENCE,
+  FANTASY,
+  ADVENTURE,
+  MYSTERY,
+  HISTORY,
+  TRAVEL
+}
